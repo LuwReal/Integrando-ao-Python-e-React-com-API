@@ -1,0 +1,35 @@
+# Ignorar node_modules (comum em projetos JavaScript/React)
+frontend/node_modules/
+backend/node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do editor (como o VSCode)
+.vscode/
+
+# Ignorar arquivos de compilação e build
+build/
+dist/
+
+# Ignorar arquivos gerados por IDEs
+.idea/
+*.iml
+
+# Ignorar arquivos de ambiente (que podem conter informações sensíveis)
+.env
+.env.*
+
+# Ignorar pastas de dependências de Python (no backend)
+backend/venv/
+backend/.venv/
+
+# Ignorar arquivos de cache do Git
+.git/
+
+# Ignorar arquivos de sistema (Windows, macOS, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup do editor (ex: arquivos temporários do Vim)
+*~
